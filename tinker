@@ -1,1 +1,12 @@
-https://www.tinkercad.com/things/cCv1Xj7vHHy-daring-juttuli/editel?sharecode=-NvbtbsiLyUSLduGnQ2yzWGMALyLf5mL-dC_t6ryQSk
+const int ledPin = 12; // Define a porta do LED
+
+void setup() {
+  pinMode(ledPin, OUTPUT); // Define o pino do LED como saída
+}
+
+void loop() {
+  digitalWrite(ledPin, HIGH); // Liga o LED
+  delay(1000); // Espera por 1 segundo
+  digitalWrite(ledPin, LOW); // Desliga o LED
+  delay(1000); // Espera por 1 segundo
+}
